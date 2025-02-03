@@ -1,0 +1,50 @@
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    border-radius: 10px;
+    background: white;
+    width: 400px;
+    overflow: hidden;
+}
+.encabezado {
+    font-size: 25px;
+    margin: 10px 10px;
+    display: flex;
+   justify-content: space-between;
+   width: 400px;
+   height: 50px;
+}
+.info-user {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.info-user p {
+    margin: 5px;
+}
+.info-user img {
+    width: 50px;
+}
+.dots {
+    margin: 10px 30px;
+}
+
+.imagen {
+    width: 400px;
+    height: 300px;
+}
+.iconos{
+    padding: 5px;
+    align-items: center;
+    font-size: 30px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.descripcion {
+    margin: 10px;
+    background-color: white;
+}
